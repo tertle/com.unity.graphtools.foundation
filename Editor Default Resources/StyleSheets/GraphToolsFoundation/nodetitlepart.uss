@@ -1,0 +1,42 @@
+.ge-node-title-part {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ge-node-title-part__title-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.ge-node--token .ge-node-title-part__title-container {
+    flex-grow: 0;
+}
+
+.ge-node-title-part__icon {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    margin: 0 4px 0 2px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.ge-graph-view--very-small .ge-node-title-part {
+    visibility: hidden;
+}
+
+.ge-editable-title-part__label-container {
+    height: 52px;
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ge-node--token .ge-node-title-part__label-container {
+    flex-grow: 0;
+    min-width: 0;
+}

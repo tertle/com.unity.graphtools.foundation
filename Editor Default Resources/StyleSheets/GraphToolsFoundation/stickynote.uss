@@ -1,0 +1,216 @@
+.ge-sticky-note {
+    position: absolute;
+    min-height: 100px;
+    min-width: 80px;
+    flex-direction: column;
+    border-radius: 2px;
+    border-width: 2px;
+    overflow: visible;
+    --layer: -100;
+    --unity-resizer-min-x: 80;
+    --unity-resizer-min-y: 100;
+}
+
+.ge-sticky-note__title-container {
+    margin: 5px;
+    --lod-min-text-size: 12;
+}
+
+.ge-sticky-note__text-container {
+    margin: 0 5px 5px 5px;
+    flex-grow: 1;
+}
+
+.ge-sticky-note .ge-editable-label > .unity-label {
+    white-space: normal;
+}
+
+.ge-sticky-note .ge-editable-label > .unity-text-field {
+    white-space: normal;
+}
+
+.ge-sticky-note--theme-classic {
+    background-color: rgb(248, 235, 169);
+    border-color: rgb(171, 146, 75);
+}
+
+.ge-sticky-note--theme-classic .ge-editable-label > .unity-label {
+    background-color: rgb(248, 235, 169);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-classic .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(248, 235, 169);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-dark {
+    background-color: rgb(0, 42, 50);
+    border-color: rgb(171, 146, 75);
+}
+
+.ge-sticky-note--theme-dark .ge-editable-label > .unity-label {
+    color: rgb(171, 146, 75);
+    background-color: rgb(0, 42, 50);
+}
+
+.ge-sticky-note--theme-dark .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    color: rgb(171, 146, 75);
+    background-color: rgb(0, 42, 50);
+}
+
+.ge-sticky-note--theme-black {
+    background-color: rgb(20, 8, 0);
+    border-color: rgb(145, 137, 99);
+}
+
+.ge-sticky-note--theme-black .ge-editable-label > .unity-label {
+    color: rgb(145, 137, 99);
+    background-color: rgb(20, 8, 0);
+}
+
+.ge-sticky-note--theme-black .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    color: rgb(145, 137, 99);
+    background-color: rgb(20, 8, 0);
+}
+
+.ge-sticky-note--theme-orange {
+    background-color: rgb(252, 188, 105);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-orange .ge-editable-label > .unity-label {
+    background-color: rgb(252, 188, 105);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-orange .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(252, 188, 105);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-red {
+    background-color: rgb(255, 153, 153);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-red .ge-editable-label > .unity-label {
+    background-color: rgb(255, 153, 153);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-red .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(255, 153, 153);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-green {
+    background-color: rgb(144, 237, 126);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-green .ge-editable-label > .unity-label {
+    background-color: rgb(144, 237, 126);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-green .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(144, 237, 126);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-blue {
+    background-color: rgb(133, 228, 255);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-blue .ge-editable-label > .unity-label {
+    background-color: rgb(133, 228, 255);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-blue .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(133, 228, 255);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-teal {
+    background-color: rgb(72, 229, 169);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-teal .ge-editable-label > .unity-label {
+    background-color: rgb(72, 229, 169);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-teal .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(72, 229, 169);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-purple {
+    background-color: rgb(202, 178, 240);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-purple .ge-editable-label > .unity-label {
+    background-color: rgb(202, 178, 240);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-purple .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(202, 178, 240);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-pink {
+    background-color: rgb(251, 188, 222);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.ge-sticky-note--theme-pink .ge-editable-label > .unity-label {
+    background-color: rgb(251, 188, 222);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--theme-pink .ge-editable-label > .unity-text-field > .unity-base-text-field__input {
+    background-color: rgb(251, 188, 222);
+    color: rgb(30, 29, 21);
+}
+
+.ge-sticky-note--size-small .ge-sticky-note__title-container {
+    min-height: 26px;
+    --wanted-text-size: 20;
+}
+
+.ge-sticky-note--size-small .ge-sticky-note__text-container {
+    font-size: 12px;
+}
+
+.ge-sticky-note--size-medium .ge-sticky-note__title-container {
+    min-height: 51px;
+    --wanted-text-size: 40;
+}
+
+.ge-sticky-note--size-medium .ge-sticky-note__text-container {
+    font-size: 24px;
+}
+
+.ge-sticky-note--size-large .ge-sticky-note__title-container {
+    min-height: 74px;
+    --wanted-text-size: 60;
+}
+
+.ge-sticky-note--size-large .ge-sticky-note__text-container {
+    font-size: 36px;
+}
+
+.ge-sticky-note--size-huge .ge-sticky-note__title-container {
+    min-height: 99px;
+    --wanted-text-size: 80;
+}
+
+.ge-sticky-note--size-huge .ge-sticky-note__text-container {
+    font-size: 56px;
+}

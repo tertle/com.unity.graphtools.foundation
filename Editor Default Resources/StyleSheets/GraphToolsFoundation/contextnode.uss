@@ -1,0 +1,249 @@
+.ge-context-node {
+    overflow: visible;
+    background-color: var(--context-background);
+    --block--background-color: var(--blocks-background);
+    --blocks--border-color: var(--unity-theme-border-color-8);
+    border-radius: var(--border-radius);
+}
+
+.ge-context-node .ge-node__outputs {
+    min-width: 70px;
+    flex-grow: 0;
+}
+
+.ge-context-node .ge-node-title-part {
+    background-color: var(--context-header-background);
+}
+
+.ge-context-node .ge-node__title-container {
+    --wanted-text-size: 18;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ge-context-node > .ge-node-title-part .ge-node__title {
+    font-size: var(--unity-font-size-very-big);
+    -unity-text-align: middle-center;
+}
+
+.ge-context-node.ge-context-node--no-vertical-input .ge-node__top-vertical-port-container {
+    margin-top: 0;
+}
+
+.ge-context-node.ge-context-node--no-vertical-output .ge-node__bottom-vertical-port-container {
+    margin-bottom: 0;
+}
+
+.ge-context-node .ge-node__bottom-vertical-port-container .ge-port-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ge-context-node .ge-vertical-port-container-part .ge-port-container .ge-port .ge-port-connector-part {
+    min-height: 8px;
+    min-width: 8px;
+}
+
+.ge-context-node .ge-vertical-port-container-part .ge-port-container .ge-port {
+    height: auto;
+}
+
+.ge-context-node__context-border {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    border-color: var(--context-border);
+}
+
+.ge-context-node__selection-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ge-context-node__context-border--accepted {
+    border-width: 2px;
+    border-color: var(--context-drag-accepted);
+}
+
+.ge-context-node__context-border--refused {
+    border-width: 2px;
+    border-color: var(--context-drag-refused);
+}
+
+.ge-context-node__blocks-container {
+    flex-direction: column;
+    padding: 0;
+}
+
+.ge-context-node__blocks-container-part {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+
+.ge-context-node .ge-node__bottom-vertical-port-container {
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-top: 0;
+}
+
+.ge-context-node--no-vertical-input .ge-context-node__context-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.ge-context-node--no-vertical-output .ge-context-node__context-border {
+    bottom: 0;
+}
+
+.ge-context-node > .ge-graph-element__content-container {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-bottom-width: 0;
+    overflow: visible;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.ge-context-node .ge-vertical-port-container-part {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.ge-context-node .ge-vertical-port-container-part > .ge-port-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ge-context-node > .ge-node__node-options {
+    padding-right: 8px;
+}
+
+.ge-context-node > .ge-in-out-port-container-part {
+    padding-right: 4px;
+}
+
+.ge-context-node > .ge-in-out-port-container-part {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ge-context-node.ge-node--disabled #disabled-overlay {
+    display: flex;
+    background-color: transparent;
+}
+
+.ge-context-node.ge-node--disabled > #disabled-overlay {
+    display: flex;
+    background-color: var(--context-disabled-tint);
+}
+
+.ge-context-node.ge-node > .ge-node__port-container > .ge-node__outputs {
+    background-color: var(--context-settings-output-background);
+    padding-right: 12px;
+}
+
+.ge-context-node.ge-node > .ge-node__port-container > .ge-node__inputs {
+    border-right-width: 0;
+    padding-left: 12px;
+}
+
+.ge-context-node .ge-port__constant-editor {
+    flex: 1 1 auto;
+}
+
+.ge-context-node .ge-port__constant-editor .unity-composite-field__input {
+    flex: 1 1 auto;
+}
+
+.ge-context-node .ge-node-title-part__icon {
+    margin-top: 14px;
+}
+
+.ge-context-node .ge-node-title-part__icon--no-icon {
+    display: none;
+}
+
+.ge-context-node .ge-block-node .ge-node-title-part__title-container {
+    justify-content: flex-start;
+}
+
+.ge-context-node .ge-node__cache-label {
+    -unity-text-align: upper-center;
+}
+
+.ge-context-node .ge-block-node .ge-node__cache-label {
+    -unity-text-align: middle-center;
+}
+
+.ge-graph-view--small .ge-context-node__add-block {
+    visibility: hidden;
+}
+
+.ge-graph-view--small .ge-context-node .ge-node__bottom-vertical-port-container {
+    visibility: hidden;
+}
+
+.ge-graph-view--small .ge-context-node .ge-node__top-vertical-port-container {
+    visibility: hidden;
+}
+
+.ge-graph-view--small .ge-context-node__etch {
+    visibility: hidden;
+}
+
+.ge-graph-view--small .ge-context-node__blocks-container {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ge-context-node .ge-node__cache {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.ge-context-node.ge-context-node--no-vertical-input .ge-node__cache {
+    margin-top: 12px;
+    padding-top: 0;
+}
+
+.ge-context-node.ge-context-node--no-vertical-output .ge-node__cache {
+    margin-bottom: 0;
+}
+
+.ge-context-node .ge-block-node .ge-node__cache {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ge-port--direction-output .ge-port__label {
+    max-width: 70px;
+}
+
+.ge-context-node__category {
+    height: 12px;
+    background-color: darkgreen;
+}
+
+.ge-context-node__category--top {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.ge-context-node__category--bottom {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.ge-context-node__missing-blocks {
+    padding-top: 8px;
+}

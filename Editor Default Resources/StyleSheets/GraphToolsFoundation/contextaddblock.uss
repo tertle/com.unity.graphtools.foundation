@@ -1,0 +1,20 @@
+.ge-context-node__add-block {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -1px;
+}
+
+.ge-context-node__add-block .unity-button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ge-context-node__add-block-label {
+    color: var(--context-addblock-text);
+    padding-top: 2px;
+    font-size: 14px;
+}

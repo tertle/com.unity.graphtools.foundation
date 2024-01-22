@@ -1,0 +1,24 @@
+.ge-wire {
+    position: absolute;
+    --layer: -10;
+    border-width: 0;
+    padding: 0;
+}
+
+.ge-wire__wire-control {
+    --wire-color: var(--wire-ghost);
+    --wire-width: 4;
+}
+
+.ge-wire:checked .ge-wire__wire-control {
+    --wire-color: var(--wire-selected);
+}
+
+.ge-wire:hover .ge-wire__wire-control {
+    --wire-width: 6;
+    margin-top: 1px;
+}
+
+.ge-wire--ghost .ge-wire__wire-bubble {
+    opacity: 0.5;
+}

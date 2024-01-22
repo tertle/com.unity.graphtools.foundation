@@ -1,0 +1,25 @@
+.ge-toggle-icon-button {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ge-graph-view--very-small .ge-toggle-icon-button {
+    visibility: hidden;
+}
+
+.ge-toggle-icon-button__icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    align-self: center;
+    border-radius: 2px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ge-toggle-icon-button:disabled .ge-toggle-icon-button__icon {
+    opacity: 0.15;
+}
+
+.ge-toggle-icon-button:hover:enabled .ge-toggle-icon-button__icon {
+    background-color: var(--node-icon-button-hover-background);
+}

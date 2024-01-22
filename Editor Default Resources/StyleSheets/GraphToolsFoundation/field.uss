@@ -1,0 +1,391 @@
+.ge-model-property-field--connected {
+    opacity: 1;
+}
+
+.ge-model-property-field--connected .unity-base-text-field__input {
+    background-color: var(--plugged-value-tint);
+}
+
+.ge-inline-value-editor .unity-base-text-field__label {
+    margin-right: 2px;
+    flex-basis: auto;
+}
+
+.ge-model-property-field .unity-base-text-field__label {
+    margin-right: 2px;
+    flex-basis: auto;
+}
+
+.ge-inline-value-editor .unity-base-field__input .unity-base-text-field__input {
+    margin-right: 0;
+}
+
+.ge-model-property-field .unity-base-field__input .unity-base-text-field__input {
+    margin-right: 0;
+}
+
+.ge-inline-value-editor .unity-color-field__input {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-color-field__input {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-enum-field__input {
+    min-width: 100px;
+}
+
+.ge-model-property-field .unity-enum-field__input {
+    min-width: 100px;
+}
+
+.ge-inline-value-editor > .unity-base-field {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ge-model-property-field > .unity-base-field {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ge-inline-value-editor .unity-vector4-int-field__input {
+    width: 194px;
+}
+
+.ge-model-property-field .unity-vector4-int-field__input {
+    width: 194px;
+}
+
+.ge-inline-value-editor .unity-vector4-field__input {
+    width: 194px;
+}
+
+.ge-model-property-field .unity-vector4-field__input {
+    width: 194px;
+}
+
+.ge-inline-value-editor .unity-vector3-int-field__input {
+    min-width: 147px;
+}
+
+.ge-model-property-field .unity-vector3-int-field__input {
+    min-width: 147px;
+}
+
+.ge-inline-value-editor .unity-vector3-field__input {
+    min-width: 147px;
+}
+
+.ge-model-property-field .unity-vector3-field__input {
+    min-width: 147px;
+}
+
+.ge-inline-value-editor .unity-vector2-int-field__input {
+    min-width: 100px;
+}
+
+.ge-model-property-field .unity-vector2-int-field__input {
+    min-width: 100px;
+}
+
+.ge-inline-value-editor .unity-vector2-field__input {
+    min-width: 100px;
+}
+
+.ge-model-property-field .unity-vector2-field__input {
+    min-width: 100px;
+}
+
+.ge-inline-value-editor .unity-rect-field {
+    min-width: 100px;
+}
+
+.ge-model-property-field .unity-rect-field {
+    min-width: 100px;
+}
+
+.ge-inline-value-editor .unity-rect-int-field {
+    min-width: 100px;
+}
+
+.ge-model-property-field .unity-rect-int-field {
+    min-width: 100px;
+}
+
+.ge-inline-value-editor .unity-bounds-field {
+    min-width: 204px;
+}
+
+.ge-model-property-field .unity-bounds-field {
+    min-width: 204px;
+}
+
+.ge-inline-value-editor .unity-bounds-int-field {
+    min-width: 204px;
+}
+
+.ge-model-property-field .unity-bounds-int-field {
+    min-width: 204px;
+}
+
+.ge-node__constant-editor geinlinevalueeditor .unity-bounds-field__extents-field.unity-base-field {
+    margin-top: 2px;
+}
+
+.ge-model-property-field .unity-bounds-field__extents-field.unity-base-field {
+    margin-top: 2px;
+}
+
+.ge-node__constant-editor geinlinevalueeditor .unity-bounds-int-field__size-field.unity-base-field {
+    margin-top: 2px;
+}
+
+.ge-model-property-field .unity-bounds-int-field__size-field.unity-base-field {
+    margin-top: 2px;
+}
+
+.ge-inline-value-editor .unity-long-field {
+    height: 16px;
+}
+
+.ge-model-property-field .unity-long-field {
+    height: 16px;
+}
+
+.ge-inline-value-editor .unity-int-field {
+    height: 16px;
+}
+
+.ge-model-property-field .unity-int-field {
+    height: 16px;
+}
+
+.ge-inline-value-editor .unity-double-field {
+    height: 16px;
+}
+
+.ge-model-property-field .unity-double-field {
+    height: 16px;
+}
+
+.ge-inline-value-editor .unity-float-field {
+    height: 16px;
+}
+
+.ge-model-property-field .unity-float-field {
+    height: 16px;
+}
+
+.ge-inline-value-editor .unity-integer-field {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-integer-field {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-long-field {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-long-field {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-text-field {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-text-field {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-float-field {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-float-field {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-double-field {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-double-field {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-text-field.unity-char-field {
+    min-width: 25px;
+}
+
+.ge-model-property-field .unity-text-field.unity-char-field {
+    min-width: 25px;
+}
+
+.ge-inline-value-editor .unity-integer-field__input {
+    flex-basis: 0;
+}
+
+.ge-model-property-field .unity-integer-field__input {
+    flex-basis: 0;
+}
+
+.ge-inline-value-editor .unity-long-field__input {
+    flex-basis: 0;
+}
+
+.ge-model-property-field .unity-long-field__input {
+    flex-basis: 0;
+}
+
+.ge-inline-value-editor .unity-text-field__input {
+    flex-basis: 0;
+}
+
+.ge-model-property-field .unity-text-field__input {
+    flex-basis: 0;
+}
+
+.ge-inline-value-editor .unity-double-field__input {
+    flex-basis: 0;
+}
+
+.ge-model-property-field .unity-double-field__input {
+    flex-basis: 0;
+}
+
+.ge-inline-value-editor .unity-float-field__input {
+    flex-basis: 0;
+}
+
+.ge-model-property-field .unity-float-field__input {
+    flex-basis: 0;
+}
+
+.ge-inline-value-editor .unity-composite-field .unity-integer-field {
+    min-width: auto;
+}
+
+.ge-model-property-field .unity-composite-field .unity-integer-field {
+    min-width: auto;
+}
+
+.ge-inline-value-editor .unity-composite-field .unity-long-field {
+    min-width: auto;
+}
+
+.ge-model-property-field .unity-composite-field .unity-long-field {
+    min-width: auto;
+}
+
+.ge-inline-value-editor .unity-composite-field .unity-float-field {
+    min-width: auto;
+}
+
+.ge-model-property-field .unity-composite-field .unity-float-field {
+    min-width: auto;
+}
+
+.ge-inline-value-editor .unity-composite-field .unity-double-field {
+    min-width: auto;
+}
+
+.ge-model-property-field .unity-composite-field .unity-double-field {
+    min-width: auto;
+}
+
+.ge-inline-value-editor .unity-curve-field__input {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-curve-field__input {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-gradient-field__input {
+    min-width: 80px;
+}
+
+.ge-model-property-field .unity-gradient-field__input {
+    min-width: 80px;
+}
+
+.ge-inline-value-editor .unity-object-field__input {
+    min-width: 125px;
+}
+
+.ge-model-property-field .unity-object-field__input {
+    min-width: 125px;
+}
+
+.ge-inline-value-editor .unity-bounds-field {
+    flex-direction: row;
+}
+
+.ge-model-property-field .unity-bounds-field {
+    flex-direction: row;
+}
+
+.ge-inline-value-editor .unity-bounds-int-field {
+    flex-direction: row;
+}
+
+.ge-model-property-field .unity-bounds-int-field {
+    flex-direction: row;
+}
+
+.ge-inline-value-editor .unity-bounds-field__center-field > .unity-base-field__label {
+    padding-left: 0;
+}
+
+.ge-model-property-field .unity-bounds-field__extents-field > .unity-base-field__label {
+    padding-left: 0;
+}
+
+.ge-inline-value-editor .unity-bounds-int-field__position-field > .unity-base-field__label {
+    padding-left: 0;
+}
+
+.ge-model-property-field .unity-bounds-int-field__size-field > .unity-base-field__label {
+    padding-left: 0;
+}
+
+.ge-inline-value-editor .unity-bounds-field__center-field > .unity-base-field__label {
+    padding-left: 0;
+    width: 42px;
+}
+
+.ge-model-property-field .unity-bounds-field__extents-field > .unity-base-field__label {
+    padding-left: 0;
+    width: 42px;
+}
+
+.ge-inline-value-editor .unity-bounds-int-field__position-field > .unity-base-field__label {
+    padding-left: 0;
+    width: 45px;
+}
+
+.ge-model-property-field .unity-bounds-int-field__size-field > .unity-base-field__label {
+    padding-left: 0;
+    width: 45px;
+}
+
+.ge-inline-value-editor .unity-composite-field__field-spacer {
+    flex-grow: 0;
+}
+
+.ge-model-property-field .unity-composite-field__field-spacer {
+    flex-grow: 0;
+}
+
+.ge-inline-value-editor .unity-base-field .unity-label {
+    min-width: 0;
+}
+
+.ge-model-property-field .unity-base-field .unity-label {
+    min-width: 0;
+}

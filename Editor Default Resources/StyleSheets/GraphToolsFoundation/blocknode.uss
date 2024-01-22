@@ -1,0 +1,133 @@
+.ge-block-node {
+    position: relative;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border-radius: 0;
+    --extremities-border-radius: 4px;
+    padding: 1px;
+    margin-top: -7px;
+    --block--background-color: var(--block-node-body-background);
+    --disabled-background-color: var(--block-node-disabled-tint);
+    border-color: var(--unity-theme-border-color-8);
+    padding-bottom: 6px;
+}
+
+.ge-block-node .ge-node__outputs {
+    min-width: 70px;
+    flex-grow: 0;
+}
+
+.ge-port--direction-output .ge-port__label {
+    max-width: 70px;
+}
+
+.ge-block-node .ge-node__title-container {
+    --wanted-text-size: 12;
+    --lod-min-text-size: 9;
+}
+
+.ge-block-node .ge-editable-title-part__label-container {
+    height: 40px;
+}
+
+.ge-block-node .ge-node__cache-label {
+    font-size: 40px;
+    min-height: 40px;
+}
+
+.ge-block-node.ge-block-node--first {
+    margin-top: 0;
+}
+
+.ge-block-node > .ge-graph-element__content-container {
+    border-radius: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.ge-graph-element__content-container {
+    background-color: var(--block-node-body-background);
+}
+
+.ge-block-node .ge-node__port-container {
+    background-color: var(--block-node-body-background);
+}
+
+.ge-block-node .ge-node__inputs.ge-port-container--port-count-0 {
+    display: flex;
+}
+
+.ge-graph-view--small .ge-block-node__etch {
+    visibility: hidden;
+}
+
+.ge-graph-view--small .ge-block-node__etch-over-border {
+    visibility: hidden;
+}
+
+.ge-node.ge-block-node .ge-node-title-part {
+    background-color: var(--block-node-header-tint);
+}
+
+.ge-block-node.ge-node--disabled #disabled-overlay {
+    display: flex;
+    background-color: transparent;
+}
+
+.ge-context-node .ge-node__port-container {
+    border-color: var(--block-node-body-border);
+}
+
+.ge-node__cache {
+    background-color: var(--block-node-body-cache);
+}
+
+.ge-block-node .ge-node-title-part__collapse-button {
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.ge-block-node .ge-in-out-port-container-part {
+    border-top-width: 0;
+    background-color: transparent;
+}
+
+.ge-block-node .ge-node__node-options {
+    border-top-width: 0;
+    background-color: var(--block-options);
+    padding: 8px 4px 8px 19px;
+}
+
+.ge-block-node .ge-in-out-port-container-part--no-output.ge-in-out-port-container-part--no-input {
+    display: none;
+}
+
+.ge-block-node .ge-node__node-options.ge-inspector-fields--empty {
+    display: none;
+}
+
+.ge-node__title {
+    -unity-font-style: bold;
+}
+
+.ge-block-node--without-title .ge-node-title-part {
+    display: none;
+}
+
+.ge-block-node--without-title .ge-node__cache-label {
+    display: none;
+}
+
+.ge-block-node--without-title.ge-block-node--first .ge-node__outputs {
+    border-top-right-radius: 2px;
+}
+
+.ge-block-node--without-title .ge-in-out-port-container-part .ge-node__inputs {
+    padding-top: 8px;
+}
+
+.ge-block-node--without-title .ge-in-out-port-container-part .ge-node__outputs {
+    padding-top: 8px;
+}

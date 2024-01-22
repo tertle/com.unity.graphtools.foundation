@@ -1,0 +1,22 @@
+.ge-library-graph-view {
+    padding: 5px;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+
+.ge-library-graph-view #content-view-container {
+    position: relative;
+}
+
+.ge-library-graph-view Layer {
+    position: relative;
+}
+
+.ge-library-graph-view .ge-node {
+    position: relative;
+}
+
+.ge-library-graph-view GridBackground {
+    display: none;
+}

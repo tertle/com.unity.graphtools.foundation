@@ -1,0 +1,100 @@
+.ge-view {
+    --unity-icon-foldout: resource('Builtin Skins/DarkSkin/Images/IN foldout@2x.png');
+    --unity-icon-foldout-on: resource('Builtin Skins/DarkSkin/Images/IN foldout on@2x.png');
+    --unity-icon-foldout-act: resource('Builtin Skins/DarkSkin/Images/IN foldout act@2x.png');
+    --unity-icon-foldout-act-on: resource('Builtin Skins/DarkSkin/Images/IN foldout act on@2x.png');
+    --unity-icon-foldout-focus: resource('Builtin Skins/DarkSkin/Images/IN foldout focus@2x.png');
+    --unity-icon-foldout-focus-on: resource('Builtin Skins/DarkSkin/Images/IN foldout focus on@2x.png');
+    --graph-color-node-light: rgb(57, 57, 57);
+    --graph-color-node-lighter: rgb(81, 81, 81);
+    --graph-color-node-dark: rgb(43, 43, 43);
+    --graph-color-borders: rgb(26, 26, 26);
+    --graph-color-dividers: rgb(34, 34, 34);
+    --graph-color-selection-fill: rgba(68, 192, 255, 0.11);
+    --overlay-background-color: rgb(56, 56, 56);
+    --blackboard-background: var(--overlay-background-color);
+    --blackboard-header-background: rgb(42, 42, 42);
+    --blackboard-section-header-background: rgb(42, 42, 42);
+    --blackboard-section-background: rgba(57, 57, 57, 0.4);
+    --blackboard-group-background: rgba(57, 57, 57, 0.45);
+    --blackboard-capsule-background: rgb(84, 84, 84);
+    --blackboard-variable-type-label: rgb(128, 128, 128);
+    --node-icon-button-hover-background: var(--unity-colors-button-background-focus);
+    --plugged-value-tint: rgb(36, 51, 51);
+    --wire-bubble-background: rgba(39, 39, 39, 0.9);
+    --minimap-nodes: rgba(230, 230, 230, 0.5);
+    --blocks-background: rgb(42, 42, 42);
+    --context-background: rgb(56, 56, 56);
+    --block-options: rgb(56, 56, 56);
+    --grid-border: rgba(200, 200, 200, 0.05);
+    --grid-border-thick: rgba(200, 200, 200, 0.1);
+    --minimap-viewport-border: rgba(230, 230, 230, 0.5);
+    --close-button-hover-color: rgba(3, 3, 3, 0.3);
+    --port-type-execution: rgb(215, 174, 31);
+    --port-type-string: rgb(252, 215, 110);
+    --port-type-gameobject: rgb(193, 193, 193);
+    --port-type-boolean: rgb(148, 129, 230);
+    --port-type-integer: rgb(88, 195, 255);
+    --port-type-float: rgb(132, 228, 231);
+    --port-type-float2: rgb(113, 232, 102);
+    --port-type-float3: rgb(246, 255, 154);
+    --port-type-float4: rgb(251, 203, 244);
+    --port-type-textures: rgb(255, 139, 139);
+    --port-type-animation: rgb(124, 244, 201);
+    --port-type-matrix: rgb(143, 193, 223);
+    --port-type-component: rgb(201, 247, 116);
+    --port-type-empty: rgb(141, 141, 141);
+    --port-type-missing: rgb(255, 0, 0);
+}
+
+.ge-port--data-type-missing-port .ge-port__icon {
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorToolbar/d_ErrorIcon.png');
+}
+
+.ge-node__icon--node {
+    background-image: resource('Icons/GraphToolsFoundation/d_Function@x3.png');
+}
+
+.ge-collapse-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_NodeChevronDown.png');
+}
+
+.ge-node-title-part .ge-collapse-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_NodeChevronUp.png');
+}
+
+.ge-collapse-button--collapsed .ge-collapse-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_NodeChevronRight.png');
+}
+
+.ge-node-title-part .ge-collapse-button--collapsed .ge-collapse-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_NodeChevronDown.png');
+}
+
+.ge-node-title-part__missing-graph-icon {
+    background-image: resource('Icons/GraphToolsFoundation/ErrorToolbar/d_ErrorIcon.png');
+}
+
+.ge-node-title-part__asset-graph-icon {
+    background-image: resource('Icons/GraphToolsFoundation/MainToolbar/d_Open.png');
+}
+
+.ge-show-node-preview-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_Hidden@64.png');
+}
+
+.ge-show-node-preview-button--show-preview .ge-show-node-preview-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_Visible@64.png');
+}
+
+.ge-node-preview__close-button__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_SmallClose@64.png');
+}
+
+.ge-node-preview__status-container__failure-icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_Loading_Failed@64.png');
+}
+
+.ge-spinning-loading-icon__icon {
+    background-image: resource('Icons/GraphToolsFoundation/d_Loading@64.png');
+}

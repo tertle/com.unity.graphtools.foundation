@@ -1,0 +1,73 @@
+.ge-resizable-element {
+    position: absolute;
+    --out-margin: -4px;
+    top: var(--out-margin);
+    bottom: var(--out-margin);
+    right: var(--out-margin);
+    left: var(--out-margin);
+    flex-direction: row;
+    align-items: stretch;
+    --resize-margin: 8px;
+}
+
+.ge-resizable-element > #right {
+    width: var(--resize-margin);
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.ge-resizable-element > #left {
+    width: var(--resize-margin);
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.ge-resizable-element > #middle {
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.ge-resizable-element > #left > #top-left-resize {
+    height: var(--resize-margin);
+    cursor: resize-up-left;
+}
+
+.ge-resizable-element > #left > #left-resize {
+    flex: 1 0 auto;
+    cursor: resize-horizontal;
+}
+
+.ge-resizable-element > #left > #bottom-left-resize {
+    height: var(--resize-margin);
+    cursor: resize-up-right;
+}
+
+.ge-resizable-element > #middle > #top-resize {
+    height: var(--resize-margin);
+    cursor: resize-vertical;
+}
+
+.ge-resizable-element > #middle > #middle-center {
+    flex: 1 0 auto;
+}
+
+.ge-resizable-element > #middle > #bottom-resize {
+    height: var(--resize-margin);
+    cursor: resize-vertical;
+}
+
+.ge-resizable-element > #right > #top-right-resize {
+    height: var(--resize-margin);
+    cursor: resize-up-right;
+}
+
+.ge-resizable-element > #right > #right-resize {
+    flex: 1 0 auto;
+    cursor: resize-horizontal;
+}
+
+.ge-resizable-element > #right > #bottom-right-resize {
+    height: var(--resize-margin);
+    cursor: resize-up-left;
+}

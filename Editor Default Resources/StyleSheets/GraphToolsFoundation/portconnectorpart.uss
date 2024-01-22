@@ -1,0 +1,11 @@
+.ge-port-connector-part__connector {
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+}
+
+.ge-port-connector-part__label {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 3px;
+}

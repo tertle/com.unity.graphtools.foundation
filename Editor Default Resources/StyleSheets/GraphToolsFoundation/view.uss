@@ -1,0 +1,79 @@
+.ge-view {
+    --graph-color-background: var(--unity-theme-background-color-82);
+    --graph-blurred-selection-color: rgb(80, 80, 80);
+    --graph-focused-selection-color: rgb(68, 192, 255);
+    --graph-color-selection-counterpart: rgb(255, 128, 0);
+    --graph-color-hover-highlight: rgba(68, 192, 255, 0.5);
+    --graph-color-disabled-tint: rgba(18, 18, 18, 0.45);
+    --graph-color-selection: var(--graph-blurred-selection-color);
+    --blackboard-title-text: var(--unity-colors-label-text);
+    --blackboard-subtitle-text: var(--unity-colors-label-text);
+    --blackboard-section-header-text: var(--unity-colors-label-text);
+    --blackboard-group-text: var(--unity-colors-helpbox-text);
+    --blackboard-header-border: var(--graph-color-borders);
+    --blackboard-capsule-border: var(--graph-color-borders);
+    --blackboard-capsule-selection-counterpart-border: var(--graph-color-selection-counterpart);
+    --blackboard-drag-indicator: var(--graph-color-selection);
+    --block-node-body-background: var(--unity-theme-background-color-80);
+    --block-node-body-cache: var(--unity-theme-background-color-80);
+    --block-node-header-tint: transparent;
+    --block-node-disabled-tint: var(--graph-color-disabled-tint);
+    --block-node-body-border: var(--graph-color-borders);
+    --context-header-background: transparent;
+    --context-border: var(--graph-color-borders);
+    --context-settings-input-background: var(--context-background);
+    --context-settings-output-background: var(--context-background);
+    --context-drag-accepted: var(--graph-color-selection);
+    --context-drag-refused: var(--unity-colors-error-text);
+    --context-addblock-text: var(--unity-colors-helpbox-text);
+    --context-highlight-hover: var(--graph-color-hover-highlight);
+    --context-highlight: var(--graph-color-selection);
+    --context-disabled-tint: var(--graph-color-disabled-tint);
+    --wire-highlight: var(--graph-color-selection);
+    --wire-selected: var(--graph-color-selection);
+    --wire-ghost: rgb(146, 146, 146);
+    --wire-bubble-text: var(--unity-colors-helpbox-text);
+    --wire-bubble-border: var(--graph-color-borders);
+    --error-toolbar-background: var(--unity-colors-toolbar-background);
+    --graph-background: var(--graph-color-background);
+    --selection-delete: rgb(255, 0, 0);
+    --dragndrop-highlight-color: rgb(37, 107, 145);
+    --dragndrop-highlight-background-color: rgba(38, 108, 145, 0.33);
+    --dragndrop-denied-color: rgb(145, 29, 19);
+    --dragndrop-denied-background-color: rgba(145, 29, 19, 0.33);
+    --snapping-line: var(--graph-color-hover-highlight);
+    --inspector-border: var(--unity-colors-default-border);
+    --inspector-inside-border: var(--unity-colors-window-border);
+    --minimap-selection-border: var(--graph-focused-selection-color);
+    --minimap-highlight-border: var(--graph-color-selection-counterpart);
+    --minimap-placemat-border: var(--graph-color-borders);
+    --node-background: var(--graph-color-node-light);
+    --node-border: var(--graph-color-borders);
+    --node-background-header: var(--graph-color-node-light);
+    --node-disabled-tint: var(--graph-color-disabled-tint);
+    --node-selection-counterpart-border: var(--graph-color-selection-counterpart);
+    --node-title-text: var(--unity-colors-label-text);
+    --close-button-color: rgba(3, 3, 3, 0.3);
+    --close-button-label-color: rgb(196, 196, 196);
+    --close-button-label-hover-color: rgb(255, 255, 255);
+    --placemat-border: var(--graph-color-borders);
+    --placemat-text: var(--unity-colors-label-text);
+    --port-default: var(--port-type-gameobject);
+    --port-background: var(--graph-color-node-light);
+    --port-text: var(--unity-colors-label-text);
+    --port-text-missing: var(--unity-colors-error-text);
+    --node-background-output: var(--graph-color-node-dark);
+    --vertical-node-port-background: var(--graph-color-node-dark);
+    --selection-hover: var(--graph-color-hover-highlight);
+    --selection-checked: var(--graph-color-selection);
+    --selection-checked-hover: var(--graph-color-selection);
+    --node-token-background: var(--graph-color-node-light);
+}
+
+.hidden {
+    display: none;
+}
+
+.ge-view--focused {
+    --graph-color-selection: var(--graph-focused-selection-color);
+}

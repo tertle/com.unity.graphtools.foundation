@@ -1,0 +1,213 @@
+.ge-node {
+    position: absolute;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+    --border-radius: 4px;
+    border-radius: var(--border-radius);
+    --graph-element-radius: 6px;
+}
+
+.ge-graph-element__content-container {
+    background-color: var(--node-background);
+    border-color: var(--node-border);
+    border-radius: var(--border-radius);
+    border-width: 1px;
+    overflow: hidden;
+}
+
+.ge-node__title-icon-container {
+    padding-left: 2px;
+    padding-right: 6px;
+    background-color: var(--node-background-header);
+    overflow: hidden;
+}
+
+.ge-node--disabled #disabled-overlay {
+    display: flex;
+    background-color: var(--node-disabled-tint);
+}
+
+.ge-node--unused #disabled-overlay {
+    display: flex;
+    border-color: rgb(120, 104, 31);
+    border-width: 1px;
+}
+
+.ge-node--highlighted {
+    border-color: var(--node-selection-counterpart-border);
+}
+
+.ge-editable-title-part__label-container .ge-node__title {
+    flex-grow: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ge-node-title-part--empty .ge-editable-title-part__label-container .ge-node__title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.ge-graph-view--medium .ge-editable-title-part__label-container .ge-node__title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.ge-node-title-part__subtitle {
+    display: flex;
+    font-size: 9px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+.ge-node-title-part--empty .ge-node-title-part__subtitle {
+    display: none;
+}
+
+.ge-graph-view--medium .ge-node-title-part__subtitle {
+    display: none;
+}
+
+.ge-editable-title-part__label-container .ge-node__title > .unity-label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.ge-node__title {
+    font-size: var(--unity-font-size);
+    color: var(--node-title-text);
+}
+
+.ge-node__title-container {
+    font-size: 14px;
+    --lod-min-text-size: 12;
+    --wanted-text-size: 14;
+}
+
+.ge-node .ge-toggle-icon-button {
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    visibility: hidden;
+}
+
+.ge-node .ge-toggle-icon-button.ge-toggle-icon-button--visible {
+    visibility: visible;
+}
+
+.ge-node--collapsed .ge-port--not-connected {
+    display: none;
+}
+
+.ge-node__node-options {
+    background-color: var(--node-background);
+    border-top-width: 1px;
+    border-top-color: var(--graph-color-dividers);
+}
+
+.ge-node__port-container {
+    background-color: var(--node-background);
+    border-top-width: 1px;
+    border-top-color: var(--graph-color-dividers);
+}
+
+.ge-node__node-options {
+    padding: 6px;
+}
+
+.ge-node__node-options.ge-inspector-fields--empty {
+    padding: 0;
+    border-width: 0;
+}
+
+.ge-node__node-mode-drop-down {
+    align-items: flex-end;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ge-node__node-mode-drop-down .unity-base-field {
+    width: 100px;
+    min-width: 44px;
+    height: 18px;
+}
+
+.ge-node__progress-bar {
+    flex-grow: 1;
+    min-width: 60px;
+}
+
+.ge-node__progress-bar .unity-progress-bar__background {
+    height: 6px;
+}
+
+.ge-node .unity-property-field {
+    padding: 0;
+    margin: 0;
+}
+
+.ge-node__color-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+
+.ge-node .ge-in-out-port-container-part--no-visible-port {
+    display: none;
+}
+
+.ge-node__cache {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--port-background);
+}
+
+.ge-node__cache-label {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 0;
+    bottom: 0;
+    font-size: 56px;
+    min-height: 70px;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ge-node__cache .ge-node__color-line {
+    height: 20px;
+}
+
+.ge-in-out-port-container-part--no-output .ge-node__inputs {
+    border-right-width: 0;
+}
+
+.ge-graph-view--very-small .ge-node__color-line {
+    height: auto;
+    bottom: 0;
+}

@@ -1,0 +1,49 @@
+.ge-placemat {
+    --border-radius: 2px;
+    --graph-element-radius: 4px;
+    border-width: 0;
+    padding: 0;
+    position: absolute;
+    background-image: none;
+    border-radius: var(--border-radius);
+    min-width: 200px;
+    min-height: 100px;
+    overflow: visible;
+}
+
+.ge-placemat .ge-resizable-element {
+    --resize-margin: 12px;
+    --out-margin: -6px;
+}
+
+.ge-placemat--collapsed {
+    min-height: 42px;
+}
+
+.ge-placemat .ge-editable-title-part {
+    padding: 4px 0;
+    background-color: rgba(0, 0, 0, 0);
+    --wanted-text-size: 18;
+    --lod-min-text-size: 12;
+}
+
+.ge-placemat__title {
+    --text-align: lower-center;
+    margin-left: -1px;
+    margin-right: -1px;
+    color: var(--placemat-text);
+}
+
+.ge-placemat .ge-editable-title-part--left-align {
+    --text-align: lower-left;
+}
+
+.ge-placemat .ge-editable-title-part--right-align {
+    --text-align: lower-right;
+}
+
+.ge-placemat .ge-editable-title-part__title .unity-label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

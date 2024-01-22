@@ -1,0 +1,11 @@
+.ge-text-alignment-field .unity-button-strip__button--left .unity-button-strip__button-icon {
+    background-image: resource('Icons/GraphToolsFoundation/TextAlignment/Left@2x.png');
+}
+
+.ge-text-alignment-field .unity-button-strip__button--mid .unity-button-strip__button-icon {
+    background-image: resource('Icons/GraphToolsFoundation/TextAlignment/Centered@2x.png');
+}
+
+.ge-text-alignment-field .unity-button-strip__button--right .unity-button-strip__button-icon {
+    background-image: resource('Icons/GraphToolsFoundation/TextAlignment/Right@2x.png');
+}

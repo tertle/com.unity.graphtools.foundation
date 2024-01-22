@@ -1,0 +1,6 @@
+.ge-port__icon {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Advanced@4x.png');
+}

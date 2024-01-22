@@ -1,0 +1,17 @@
+.ge-graph-view--very-small .ge-spinning-loading-icon {
+    visibility: hidden;
+}
+
+.ge-spinning-loading-icon__icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    align-self: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ge-spinning-loading-icon--rotate {
+    rotate: 360deg;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}

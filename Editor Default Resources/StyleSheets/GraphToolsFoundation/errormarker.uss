@@ -1,0 +1,94 @@
+.ge-error-marker {
+    --horizontal-distance: 4;
+    --vertical-distance: 4;
+    position: absolute;
+    align-items: center;
+    --error-text-size: 11;
+    --error-text-max-width: 250;
+}
+
+.ge-error-marker__icon {
+    background-color: rgb(255, 0, 255);
+    border-radius: 2px;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+}
+
+.ge-error-marker__tip {
+    width: 7px;
+    height: 4px;
+}
+
+.ge-error-marker__text {
+    white-space: normal;
+    color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+.ge-error-marker--hidden {
+    display: none;
+}
+
+.ge-error-marker--error .ge-error-marker__icon {
+    background-color: rgb(255, 100, 100);
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/ExclamationMark.png');
+}
+
+.ge-error-marker--error .ge-error-marker__tip {
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/ErrorTip.png');
+}
+
+.ge-error-marker--warning .ge-error-marker__icon {
+    background-color: rgb(180, 150, 0);
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/ExclamationMark.png');
+}
+
+.ge-error-marker--warning .ge-error-marker__tip {
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/WarningTip.png');
+}
+
+.ge-error-marker--comment .ge-error-marker__icon {
+    background-color: rgb(240, 240, 240);
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/CommentMark.png');
+}
+
+.ge-error-marker--comment .ge-error-marker__tip {
+    --unity-image: resource('Icons/GraphToolsFoundation/ErrorMarker/CommentTip.png');
+}
+
+.ge-error-marker--left {
+    flex-direction: row-reverse;
+}
+
+.ge-error-marker--right {
+    flex-direction: row;
+}
+
+.ge-error-marker--top {
+    flex-direction: column-reverse;
+}
+
+.ge-error-marker--bottom {
+    flex-direction: column;
+}
+
+.ge-error-marker--left .ge-error-marker__tip {
+    rotate: 90deg;
+    margin-left: -2px;
+}
+
+.ge-error-marker--right .ge-error-marker__tip {
+    rotate: -90deg;
+    margin-right: -2px;
+}
+
+.ge-error-marker--top .ge-error-marker__tip {
+    rotate: 180deg;
+}
+
+.ge-error-marker--tip-hidden .ge-error-marker__tip {
+    display: none;
+}

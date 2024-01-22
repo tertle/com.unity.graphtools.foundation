@@ -1,0 +1,16 @@
+.ge-wire-bubble-part {
+    font-size: 11px;
+    color: var(--wire-bubble-text);
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: var(--wire-bubble-background);
+    border-color: var(--wire-bubble-border);
+    min-width: 24px;
+    max-width: 150px;
+    align-self: center;
+    min-height: 24px;
+    max-height: 150px;
+    padding: 6px 8px;
+    margin: 0;
+    -unity-text-align: middle-center;
+}

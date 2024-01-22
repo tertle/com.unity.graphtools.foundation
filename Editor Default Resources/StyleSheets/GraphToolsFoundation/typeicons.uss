@@ -1,0 +1,139 @@
+.ge-icon--data-type-advanced {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Advanced@4x.png');
+}
+
+.ge-icon--data-type-game-object {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Core_GameObject@4x.png');
+}
+
+.ge-icon--data-type-float {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Float@4x.png');
+}
+
+.ge-icon--data-type-float1 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Float@4x.png');
+}
+
+.ge-icon--data-type-single {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Float@4x.png');
+}
+
+.ge-icon--data-type-double {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Float@4x.png');
+}
+
+.ge-icon--data-type-int16 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Integer16@4x.png');
+}
+
+.ge-icon--data-type-int {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Integer32@4x.png');
+}
+
+.ge-icon--data-type-int32 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Integer32@4x.png');
+}
+
+.ge-icon--data-type-int64 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Integer64@4x.png');
+}
+
+.ge-icon--data-type-boolean {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Boolean@4x.png');
+}
+
+.ge-icon--data-type-string {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/String@4x.png');
+}
+
+.ge-icon--data-type-float2 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector2@4x.png');
+}
+
+.ge-icon--data-type-vector2 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector2@4x.png');
+}
+
+.ge-icon--data-type-float3 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector3@4x.png');
+}
+
+.ge-icon--data-type-vector3 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector3@4x.png');
+}
+
+.ge-icon--data-type-float4 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector4@4x.png');
+}
+
+.ge-icon--data-type-vector4 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Vector4@4x.png');
+}
+
+.ge-icon--data-type-quaternion {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Quaternion@4x.png');
+}
+
+.ge-icon--data-type-color {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Color@4x.png');
+}
+
+.ge-icon--data-type-gradient {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Gradient@4x.png');
+}
+
+.ge-icon--data-type-animation-curve {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/AnimationCurve@4x.png');
+}
+
+.ge-icon--data-type-transform {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Core_Transform@4x.png');
+}
+
+.ge-icon--data-type-material {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Graphics_Material@4x.png');
+}
+
+.ge-icon--data-type-list {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/List@4x.png');
+}
+
+.ge-icon--data-type-array {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Array@4x.png');
+}
+
+.ge-icon--data-type-enum {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Enum@4x.png');
+}
+
+.ge-icon--data-type-dictionary {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Dictionary@4x.png');
+}
+
+.ge-icon--data-type-mesh {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Graphics_Mesh@4x.png');
+}
+
+.ge-icon--data-type-texture2d {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Texture2D@4x.png');
+}
+
+.ge-icon--data-type-texture2d-array {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Texture2DArray@4x.png');
+}
+
+.ge-icon--data-type-texture3d {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Texture3D@4x.png');
+}
+
+.ge-icon--data-type-cubemap {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Graphics_Cubemap@4x.png');
+}
+
+.ge-icon--data-type-matrix {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Matrix@4x.png');
+}
+
+.ge-icon--data-type-matrix4x4 {
+    --unity-image: resource('Icons/GraphToolsFoundation/Port/Matrix@4x.png');
+}

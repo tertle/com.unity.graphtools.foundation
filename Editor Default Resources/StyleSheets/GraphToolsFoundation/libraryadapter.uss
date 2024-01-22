@@ -1,0 +1,7 @@
+.unity-label__library-details-title--description {
+    margin-top: 10px;
+}
+
+.ge-library-details--hidden {
+    display: none;
+}

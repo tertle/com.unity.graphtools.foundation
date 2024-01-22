@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" class="ge-editable-label">
+    <ui:Label name="label" />
+    <ui:TextField name="text-field" />
+</ui:UXML>
